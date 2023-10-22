@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+body {
+    background-color: #254117;
+}
+
+.links {
+    background-color: #254117;
+    color: aliceblue;
+    height: 30px;
+}
+
+#e-mail {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 15px;
+
+}
+
+#whattsapp {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 15px;
+
+}
+
+.header {
+    background-color: #F5FFFA;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.logo {
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.logo img {
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+
+.Cabeçalho {
+    font-size: 28px ;
+        display: flex;
+        gap: 3rem;
+        font-weight: 500;
+        cursor: pointer;
+        margin-left:  45vh;
+        margin-top: 10px;
+    }
+
+.background {
+    background-color: #254117;
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.background img {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.background p {
+    color: aliceblue;
+    flex: 1;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+button {
+    color: black;
+    background: transparent;
+    border: solid 2px black;
+    padding: 5px;
+    font-size: 20px;
+    width: 200px;
+    margin-right: -200px;
+
+}
+
+.fotos {
+    margin-top: 25px;
+    background-color: #F5FFFA;
+}
+
+.fotos img {
+    width: 30%;
+
+
+}
+
+.paisagem img {
+    width: 500px !important;
+}
