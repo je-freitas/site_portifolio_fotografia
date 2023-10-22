@@ -67,12 +67,12 @@ body {
 
 .Cabeçalho {
     font-size: 28px ;
-        display: flex;
-        gap: 3rem;
-        font-weight: 500;
-        cursor: pointer;
-        margin-left:  45vh;
-        margin-top: 10px;
+    display: flex;
+    gap: 3rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left:  45vh;
+    margin-top: 10px;
     }
 
 .background {
@@ -99,27 +99,59 @@ body {
 }
 
 button {
-    color: black;
+    color: #254117;
     background: transparent;
-    border: solid 2px black;
+    border: solid 3px #254117;
+    border-radius: 10px;
     padding: 5px;
     font-size: 20px;
     width: 200px;
     margin-right: -200px;
+    cursor: pointer;
 
 }
 
 .fotos {
     margin-top: 25px;
     background-color: #F5FFFA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .fotos img {
     width: 30%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #ccc;
 
 
 }
 
-.paisagem img {
-    width: 500px !important;
+.final {
+    position: relative;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.final img {
+    width: 100%;
+    height: auto;
+}
+
+.texto-final {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 10px;
+}
+
+.final p {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: #F5FFFA;
+    font-size: 25px;
 }
