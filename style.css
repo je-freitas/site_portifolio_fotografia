@@ -1,3 +1,11 @@
+/* Palhetas de Cores :
+  #F0F0EE - TEMPESTADE NO DESERTO - Tons claros
+  #76766E - TAPA - Leve acento
+  #94979A - OSLO CINZA - Cor da marca principal
+  #736863 - ARENITO - Sotaque escuro
+  #565652 - CINZA FUSCOUS - Tons escuros
+ */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,18 +16,18 @@
     color: black;
 }
 body {
-    background-color: #254117;
+    background-color: #94979A;
 }
 
 .links {
-    background-color: #254117;
+    background-color: #94979A;
     color: aliceblue;
     height: 30px;
 }
 
 #e-mail {
     text-decoration: none;
-    color: aliceblue;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     text-align: left;
@@ -29,7 +37,7 @@ body {
 
 #whattsapp {
     text-decoration: none;
-    color: aliceblue;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     text-align: left;
@@ -38,7 +46,7 @@ body {
 }
 
 .header {
-    background-color: #F5FFFA;
+    background-color: #F0F0EE;
     display: flex;
     align-items: center;
     margin-left: 15px;
@@ -76,7 +84,7 @@ body {
     }
 
 .background {
-    background-color: #254117;
+    background-color: #76766E;
     display: flex;
     align-items: center;
     margin-top: 5vh;
@@ -99,9 +107,9 @@ body {
 }
 
 button {
-    color: #254117;
+    color: #565652;
     background: transparent;
-    border: solid 3px #254117;
+    border: solid 3px #565652;
     border-radius: 10px;
     padding: 5px;
     font-size: 20px;
@@ -113,7 +121,7 @@ button {
 
 .fotos {
     margin-top: 25px;
-    background-color: #F5FFFA;
+    background-color: #94979A;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -121,19 +129,24 @@ button {
 }
 
 .fotos img {
-    width: 30%;
-    height: auto;
-    margin: 10px;
-    border: 1px solid #ccc;
+    width: 570px;
+    height: 850px;
+    object-fit: cover;
+    margin: 3px;
+    border: 1px solid #76766E;
 
 
 }
 
 .final {
+    display: flex;
+    margin-top: 25px;
+    background-color: #736863;
     position: relative;
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 .final img {
@@ -157,10 +170,44 @@ button {
 }
 
 .entre_em_contato {
-    background-color: #F5FFFA;
+    background-color: #736863;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
+    font-size: 20px;
 }
 
- 
+#button_enviar {
+    color: #F0F0EE;
+    background: transparent;
+    border: solid 3px #F0F0EE;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    width: 120px;
+    margin-right: -100px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+h3 {
+    margin-top: 20px;
+    color: #F0F0EE;
+}
+
+input {
+    font-size: 18px;
+    
+}
+
+textarea {
+    font-size: 16px;
+}
+
+/* form label {
+    color: #F0F0EE;
+}
+ */
