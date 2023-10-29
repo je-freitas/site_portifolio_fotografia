@@ -133,6 +133,7 @@ button {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+
 }
 
 .fotos img {
@@ -257,11 +258,14 @@ textarea {
     color: #F0F0EE;
     text-align: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 40px;
     justify-content: center;
     white-space: normal;
+    height: 70vh;
 
 }
+
+
 
 p {
     color: #F0F0EE;
@@ -275,24 +279,35 @@ p {
 } 
 
 .texto-sobre {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
+    font-size: 170%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .titulo-sobre {
-    margin-top: 20px;
+    margin-top: 3%;
     color: #F0F0EE;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .karl {
     margin-bottom: 50px;
 }
 
+.frase-final {
+    margin-top: 3%;
+    font-size: 135%;
+    font-style: italic;
+    font-family: cursive;
+}
+
 .galeria {
     display: flex;
     flex-wrap: wrap;
     width: calc(100%);
+    position: relative;
+    overflow: hidden;
 }
 
 .galeria img {
@@ -310,7 +325,13 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 2px;
     margin-right: 1%;
     margin-left: 1%;
+    object-fit: cover;
+    transition: transform 0.3s;
 }
+
+/* .blur {
+    filter: blur(5px);
+} */
 
 footer {
     color: #F0F0EE;
