@@ -53,6 +53,10 @@ body {
     margin-right: 15px;
     border-radius: 10px;
     height: 300px;
+    border: 2px solid #F5FFFA;
+    border-radius: 15px;
+    margin-top: 1%;
+    box-shadow: 10px 10px 20px #76766E;
 }
 
 .logo {
@@ -104,7 +108,6 @@ body {
     margin-right: 100px;
     font-size: 30px;
     font-weight: normal;
-
 }
 
 button {
@@ -117,6 +120,9 @@ button {
     width: 200px;
     margin-right: -200px;
     cursor: pointer;
+    border-radius: 15px;
+    margin-top: 1%;
+    box-shadow: 5px 5px 10px #94979A;
 
 }
 
@@ -130,12 +136,16 @@ button {
 }
 
 .fotos img {
-    width: 570px;
+    width: calc(29% );
     height: 850px;
     object-fit: cover;
-    margin: 3px;
-    border: 1px solid #76766E;
+    margin: 2px;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 2px solid #F5FFFA;
     border-radius: 15px;
+    margin-top: 1%;
+    box-shadow: 10px 10px 20px #565652;
 }
 
 .final {
@@ -195,7 +205,11 @@ button {
     padding: 2rem 3rem;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #94979A;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    margin-top: 1%;
+    box-shadow: 10px 10px 20px #565652;
 }
 
 
@@ -270,4 +284,33 @@ p {
 
 .karl {
     margin-bottom: 50px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    height: 850px;
+    max-width: 1125px;
+    margin: 5px;box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: 1px solid #F5FFFA;
+    border-radius: 15px;
+    margin-top: 1%;
+    box-shadow: 10px 10px 20px #565652;
+}
+
+footer {
+    color: #F0F0EE;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    white-space: normal;
 }
