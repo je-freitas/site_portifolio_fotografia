@@ -5,7 +5,7 @@
   #736863 - ARENITO - Sotaque escuro
   #565652 - CINZA FUSCOUS - Tons escuros
  */
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -52,11 +52,12 @@ body {
     margin-left: 15px;
     margin-right: 15px;
     border-radius: 10px;
-    height: 300px;
+    height: 170px;
     border: 2px solid #F5FFFA;
     border-radius: 15px;
     margin-top: 1%;
     box-shadow: 10px 10px 20px #76766E;
+    width: 98%;
 }
 
 .logo {
@@ -74,17 +75,18 @@ body {
     height: 400px;
     cursor: pointer;
     margin-left: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 
 }
 
 .Cabeçalho {
-    font-size: 28px ;
+    font-size: 22px ;
     display: flex;
     gap: 3rem;
     font-weight: 500;
     cursor: pointer;
-    margin-left:  60vh;
+    margin-left: 25vh;
     margin-top: 10px;
     }
 
@@ -93,6 +95,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 5vh;
+    width: 100%;
 }
 
 .background img {
@@ -103,11 +106,8 @@ body {
 .background p {
     color: aliceblue;
     flex: 1;
-    text-align: left;
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 30px;
     font-weight: normal;
+    width: 70%;
 }
 
 button {
@@ -162,7 +162,7 @@ button {
 .final img {
     width: 100%;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
     border-radius: 40px;
 }
 
@@ -260,6 +260,7 @@ textarea {
     margin-top: 10px;
     justify-content: center;
     white-space: normal;
+
 }
 
 p {
@@ -270,6 +271,7 @@ p {
     display: flex;
     margin: 0 auto;
     font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
 
 .texto-sobre {
@@ -280,6 +282,7 @@ p {
 .titulo-sobre {
     margin-top: 20px;
     color: #F0F0EE;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .karl {
@@ -289,21 +292,24 @@ p {
 .galeria {
     display: flex;
     flex-wrap: wrap;
+    width: calc(100%);
 }
 
 .galeria img {
-    height: 850px;
-    max-width: 1125px;
     margin: 5px;box-sizing: border-box;
     display: block;
     margin: 0 auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
     cursor: pointer;
     border: 1px solid #F5FFFA;
     border-radius: 15px;
-    margin-top: 1%;
+    margin-top: 1% !important;
     box-shadow: 10px 10px 20px #565652;
+    width: calc(31% );
+    height: 450px;
+    object-fit: cover;
+    margin: 2px;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 footer {
@@ -313,4 +319,9 @@ footer {
     margin-top: 10px;
     justify-content: center;
     white-space: normal;
+}
+
+footer p{
+    font-size: 16px;
+    color: black;
 }
