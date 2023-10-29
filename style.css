@@ -51,7 +51,8 @@ body {
     align-items: center;
     margin-left: 15px;
     margin-right: 15px;
-
+    border-radius: 10px;
+    height: 300px;
 }
 
 .logo {
@@ -79,7 +80,7 @@ body {
     gap: 3rem;
     font-weight: 500;
     cursor: pointer;
-    margin-left:  45vh;
+    margin-left:  60vh;
     margin-top: 10px;
     }
 
@@ -134,24 +135,25 @@ button {
     object-fit: cover;
     margin: 3px;
     border: 1px solid #76766E;
-
-
+    border-radius: 15px;
 }
 
 .final {
     display: flex;
     margin-top: 25px;
-    background-color: #736863;
     position: relative;
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
     margin-top: 50px;
+    width: 150%;
 }
 
 .final img {
     width: 100%;
     height: auto;
+    margin-bottom: 50px;
+    border-radius: 40px;
 }
 
 .texto-final {
@@ -170,11 +172,32 @@ button {
 }
 
 .entre_em_contato {
-    background-color: #736863;
-    text-align: center;
-    margin-top: 40px;
-    font-size: 20px;
+    margin-top: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #76766E;
+    font-size: 1rem;
 }
+
+
+.formulário {
+    position: relative;
+    width: 900px;
+    background-color: transparent;
+    border: 2px solid #F0F0EE;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #94979A;
+}
+
 
 #button_enviar {
     color: #F0F0EE;
@@ -200,14 +223,51 @@ h3 {
 
 input {
     font-size: 18px;
-    
+    width: 800px;
+    height: 40px;
+    border-radius: 6px;
+    border-color: transparent;
+    padding: 5px;
 }
 
 textarea {
     font-size: 16px;
+    width: 800px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 6px;
 }
 
-/* form label {
+.sobre {
+    background-color: #76766E;
+    color: #F0F0EE;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    white-space: normal;
+}
+
+p {
+    color: #F0F0EE;
+    width: 800px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 23px;
+} 
+
+.texto-sobre {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.titulo-sobre {
+    margin-top: 20px;
     color: #F0F0EE;
 }
- */
+
+.karl {
+    margin-bottom: 50px;
+}

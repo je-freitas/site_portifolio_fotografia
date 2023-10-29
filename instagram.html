@@ -24,7 +24,7 @@
     
         <div class="Cabeçalho">
             <li>
-              <a href="home.html">Home</a>
+              <a href="index.html">Home</a>
             </li>
     
             <li>
@@ -38,11 +38,7 @@
             <li>
               <a href="#">Instagram</a>
             </li>
-    
-            <li>
-              <a href="#">Landscape</a>
-            </li>
-    
+            
             <li>
              <a href="https://wa.me/+5515996320896">
                 <button id="contao">Contato</button>
@@ -53,11 +49,18 @@
     </header>
 
     <div class="instagram">
-        <iframe src="https://www.instagram.com/jefferson__caique/" width="800px" height="800px"></iframe>
+      <!-- Place <div> tag where you want the feed to appear -->
+<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+
+<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+<script type="text/javascript">
+/* curator-feed-default-feed-layout */
+(function(){
+var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+i.src="https://cdn.curator.io/published/96ff7f74-41e7-465c-99ba-a1d744bc931c.js";
+e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script>
     </div>
-
-
-
-
 </body>
 </html>
